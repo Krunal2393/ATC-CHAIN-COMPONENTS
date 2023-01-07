@@ -1,7 +1,17 @@
 import React from 'react'
 
 const Home = () => {
-  return <div>hii home page</div>
+  return (
+    <div>
+      hii home page
+      <div class='grid grid-cols-6 gap-4'>
+        <div class='col-start-2 col-span-4 ...'>01</div>
+        <div class='col-start-1 col-end-3 ...'>02</div>
+        <div class='col-end-7 col-span-2 ...'>03</div>
+        <div class='col-start-1 col-end-7 ...'>04</div>
+      </div>
+    </div>
+  )
 }
 
 export default Home

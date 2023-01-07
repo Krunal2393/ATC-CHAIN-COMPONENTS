@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
+    font-family: 'Poppins', sans-serif;
     background-color: #F6FAFF;
+}
+
+.slick-prev {
+    left: 3px !important;
+    background: #d8d7d7 !important;
+    border-radius: 50% !important;
+    top: 24% !important;
+    z-index: 11;
+}
+
+.slick-next{
+    right: 3px !important;
+    background: #d8d7d7 !important;
+    border-radius: 50% !important;
+    top: 24% !important;
+    z-index: 11;
 }
