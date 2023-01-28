@@ -4,8 +4,16 @@ import HomeSolution from './HomeSolution'
 import Work from './Work'
 import Carousel from './IndusExpert'
 import Blog from './Blog'
+import Product from './productItem'
+import Prod from './Prod'
+import Embecarsoul from './Embecarsoul'
+import SubProducts from './SubProduct'
+import SubProd from './SubProd'
 
 export default function Home () {
+  const OPTIONS = { slidesToScroll: 'auto', containScroll: 'trimSnaps' }
+  const SLIDE_COUNT = 5
+  const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
   return (
     <>
       <Head>
@@ -23,7 +31,10 @@ export default function Home () {
         {/* </link> */}
       </Head>
       <NavBar />
-      <Blog />
+      <Prod />
+      <SubProducts showHeader={true} />
+      <SubProducts showHeader={false} />
+      <SubProd />
       {/* <HomeSolution /> */}
       {/* <Work /> */}
     </>

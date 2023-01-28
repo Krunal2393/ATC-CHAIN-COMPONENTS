@@ -79,13 +79,13 @@ const Blog = () => {
                     className='p-4 rounded-3xl w-auto sm:w-1/2'
                   />
                   <div class='flex flex-col justify-between p-4 leading-normal'>
-                    <p class='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
+                    <p class='mb-2 text-sm sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
                       {detail.title}
                     </p>
-                    <p class='mb-3 font-normal text-gray-700 dark:text-gray-400'>
+                    <p class='mb-3 text-sm font-normal text-gray-700 dark:text-gray-400'>
                       {detail.text}
                     </p>
-                    <p className='#666666 text-sm'> {detail.date}</p>
+                    <p className='#666666  sm:text-sm'> {detail.date}</p>
                   </div>
                 </div>
               </>
